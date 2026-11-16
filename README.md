@@ -134,4 +134,7 @@ Word2Vec is a machine learning technique that converts words into numerical vect
 - MCP Server = Exposes tools, resources, or prompts.
 - MCP Client = Connects the AI application to an MCP server.
 
+---
+# Claude Notes - Algomaster.io
+
 
