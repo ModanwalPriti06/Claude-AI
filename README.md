@@ -21,3 +21,117 @@ Make recurring work start on its own.
 
 ## S — Synthesize
 Combine everything into assistants, agents and AI employees.
+
+---
+
+# Week - 1 - S1 (https://lmstudio.ai/docs/bionic)
+
+## What is a cohort?
+- Instructor-led milestones
+- Fixed timelines
+- Peer-to-peer learning
+- Community accountability
+
+## LLM (Large Language Model) : 
+LLM is an AI model trained on huge amounts of text to understand and generate human-like language.
+
+## Harness:
+In AI, a harness is the system around an AI model that helps it perform tasks by providing tools, instructions, context, and execution control.
+- Example: An LLM is the brain, while the harness gives it tools like file access, a browser, and code execution.
+
+## OLMo:
+OLMo stands for Open Language Model. It is a family of open language models developed by the Allen Institute for AI (AI2).
+
+#### In simple terms:
+- LLM: A large language model in general.
+- OLMo: A specific family of open language models.
+- ChatGPT: An AI product powered by language models.
+
+## Open Weight Model:
+An open-weight model is an AI model whose trained parameters (called weights) are publicly available to download and run.
+
+## Diff between Full precision and Quant model
+The main difference is model accuracy vs. memory and speed.  In simple terms: Full precision preserves more numerical detail, while quantization compresses the model so it needs less memory and may run more efficiently, with a possible quality trade-off.
+
+| Feature      | Full-Precision Model                 | Quantized Model                                   |
+| ------------ | ------------------------------------ | ------------------------------------------------- |
+| Weights      | Higher precision, e.g. FP16/BF16     | Lower precision, e.g. INT8/INT4                   |
+| Memory usage | High                                 | Much lower                                        |
+| Speed        | Can be slower on limited hardware    | Often faster, depending on hardware               |
+| Accuracy     | Usually closer to the original model | May lose some accuracy                            |
+| Hardware     | Requires more RAM/VRAM               | Can run on smaller GPUs or even some CPUs         |
+| Use case     | Research, high-quality inference     | Local AI apps, laptops, cost-efficient deployment |
+
+### Example
+Suppose you have a 7-billion-parameter LLM.
+- FP16: Weights alone require approximately 14 GB of memory.
+- INT8: Approximately 7 GB.
+- INT4: Approximately 3.5 GB.
+
+## Context Window:
+Context window is the maximum amount of information an LLM can process at one time, measured in tokens.
+
+## Token Per Second(TPS):
+Tokens per second (TPS) measures how many tokens an LLM generates per second. It indicates the model's response speed.
+- What affects TPS? GPU/CPU performance, model size, quantization, and the length of the input context.
+- Remember: Context window = how much information a model can handle; TPS = how fast it generates output.
+
+## Complete model example: Llama-3.1-8B-Instruct-Q4_K_M.gguf
+| Question          | Example       | Meaning                                                     |
+| ----------------- | ------------- | ----------------------------------------------------------- |
+| Who built it?     | Meta          | The company that developed it                               |
+| What family?      | Llama         | The model family                                            |
+| How big?          | 8B            | Approximately 8 billion parameters                          |
+| How optimized?    | Q4_K_M        | 4-bit quantization format commonly used with GGUF           |
+| Where runs?       | GGUF          | A model file format used by tools like Ollama and llama.cpp |
+| How much context? | 128K tokens   | Maximum context window supported by this model              |
+| What behavior?    | Instruct      | Fine-tuned to follow user instructions                      |
+| How fast?         | 40 tokens/sec | Example generation speed; actual speed depends on hardware  |
+
+--
+# Week - 1 - S2 (tokenizer)
+
+## Vector embedding:
+Vector embedding is a way to convert text, images, or other data into a list of numbers (a vector) so AI can understand semantic meaning and find similar information.
+
+## Autoregression:
+Autoregression in AI is a process where a model predicts the next token based on the tokens generated so far. Autoregression = predict the next token using the tokens that came before it.
+
+## LL Model
+- LLM is only a next-token prediction engine.
+- No Math skills
+- No Emotions
+- A great mimicker
+- Data is not stored in an LLM.
+- LLMs do not search a database of facts.
+
+## Word2vec
+Word2Vec is a machine learning technique that converts words into numerical vectors (embeddings) so words with similar meanings have similar vector representations.
+
+---
+# Week - 2 - S1
+<img width="500" height="400" alt="Screenshot 2026-10-24 at 5 06 20 PM" src="https://github.com/user-attachments/assets/00ef6d8c-943a-4901-9752-199c74d3c7d0" />
+
+## Big Picture – Overview Table
+
+| Concept                   | Meaning                                                                 | Example / Current Implementation     |
+| ------------------------- | ----------------------------------------------------------------------- | ------------------------------------ |
+| Prompt Engineering        | Managing and improving prompts given to an LLM.                         | User message + Tools                 |
+| Context Engineering       | Managing the input and context provided to an LLM.                      | Prompt + Message Chaining            |
+| Orchestration             | Coordinating multiple LLM calls and their sequence.                     | First call → Call Tool → Final Call  |
+| Agentic Workflow          | Following step-by-step actions to achieve a goal.                       | Our chat function                    |
+| Tool Chaining             | Connecting multiple tools to work together in sequence.                 | Our example had only one tool        |
+| Agent Memory – Short-Term | Retaining information during the current interaction or task.           | Our agent has only short-term memory |
+| Agent Memory – Long-Term  | Retaining useful information across multiple sessions or conversations. | Long-term memory capability          |
+
+<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/c5cb7238-a73c-4938-aebc-fef5cf7414e0" />
+
+---
+# Week - 2 - S2
+
+- LLM = The AI model that generates responses.
+- MCP = The protocol that connects AI applications to tools and data.
+- MCP Server = Exposes tools, resources, or prompts.
+- MCP Client = Connects the AI application to an MCP server.
+
+
