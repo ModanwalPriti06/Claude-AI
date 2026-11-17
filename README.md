@@ -112,8 +112,6 @@ Word2Vec is a machine learning technique that converts words into numerical vect
 | Agent Memory – Short-Term | Retaining information during the current interaction or task.           | Our agent has only short-term memory |
 | Agent Memory – Long-Term  | Retaining useful information across multiple sessions or conversations. | Long-term memory capability          |
 
-<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/c5cb7238-a73c-4938-aebc-fef5cf7414e0" />
-
 ---
 # Week - 2 - S2
 
@@ -166,7 +164,11 @@ LangChain: LangChain is an open-source framework and agent engineering platform 
 - Datasets
 - Prompt 
 
-
+```
+- LangChain → Build AI applications.
+- LangGraph → Manage complex AI workflows.
+- LangSmith → Monitor, debug, and evaluate AI applications.
+```
 
 
 
