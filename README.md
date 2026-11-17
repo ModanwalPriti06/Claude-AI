@@ -159,9 +159,13 @@ LangChain: LangChain is an open-source framework and agent engineering platform 
 
 **LangSmith:** LangSmith is a platform used to debug, monitor, test, evaluate, and improve LLM-powered applications and AI agents.
 
-##### Features of LangSmith
-
-Tracing, Debugging, Evaluation, Monitoring, Datasets, Prompt 
+### Features of LangSmith
+- Tracing
+- Debugging
+- Evaluation
+- Monitoring
+- Datasets
+- Prompt 
 
 
 
