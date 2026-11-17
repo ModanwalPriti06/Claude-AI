@@ -1,7 +1,10 @@
 # Claude-AI 
 Claude Skill  (model, harness, tools, context management, and execution environment)
 
-## AI → Gen AI → AI Agent → Agentic AI
+![AI](https://img.shields.io/badge/AI-Think-blue)
+![Gen AI](https://img.shields.io/badge/Gen_AI-Create-purple)
+![AI Agent](https://img.shields.io/badge/AI_Agent-Act-green)
+![Agentic AI](https://img.shields.io/badge/Agentic_AI-Plan_Act_Adapt-orange)
 
 ### PROMPTS Full Form
 
