@@ -82,7 +82,7 @@ Tokens per second (TPS) measures how many tokens an LLM generates per second. It
 | What behavior?    | Instruct      | Fine-tuned to follow user instructions                      |
 | How fast?         | 40 tokens/sec | Example generation speed; actual speed depends on hardware  |
 
---
+---
 # Week - 1 - S2 (tokenizer)
 
 ## Vector embedding:
@@ -126,6 +126,7 @@ Word2Vec is a machine learning technique that converts words into numerical vect
 - MCP Client = Connects the AI application to an MCP server.
 
 ---
+
 # Claude Notes - Algomaster.io
 
 ## Git Command
