@@ -139,5 +139,47 @@ Git Command
 | Rewrite remote history           | `git push --force`                  | Block                    |
 | Merge into main                  | `gh pr merge`                       | Human approval required  |
 
-## LangGraph  Vs LangChain 
+## LangGraph Vs LangChain 
+
+LangChain: LangChain is an open-source framework and agent engineering platform launched in October 2022 by Harrison Chase. It helps developers build applications powered by large language models (LLMs) by connecting models to external data sources, memory, and software workflows
+
+<img width="752" height="423" alt="Screenshot 2026-11-17 at 6 37 06 PM" src="https://github.com/user-attachments/assets/98fe092b-2ad3-4268-9e54-9702e988c3ff" />
+
+**LangGraph:** LangGraph is a framework to orchestrate multisteps, stateful workflow using LLM, with a graph based structure.
+
+## **LangChain vs LangGraph**
+
+| Feature            | LangChain                                         | LangGraph                                                                    |
+| ------------------ | ------------------------------------------------- | ---------------------------------------------------------------------------- |
+| **Purpose**        | Toolkit to build LLM apps (chains, tools, agents) | Framework to manage complex workflows with state                             |
+| **Style**          | Linear or reactive chains                         | Graph-based, supports loops, retries, memory                                 |
+| **Best Use Case**  | Simple chatbots, RAG apps, tool usage             | Multi-step workflows, agents with memory, conditional paths                  |
+| **State Handling** | Stateless or partially stateful                   | Fully stateful; remembers and transitions based on logic                     |
+| **Example Use**    | "Book a flight" using a flight API                | "Plan a vacation" (ask budget → choose flights → book hotel → loop if error) |
+
+**LangSmith:** LangSmith is a platform used to debug, monitor, test, evaluate, and improve LLM-powered applications and AI agents.
+
+##### Features of LangSmith
+
+Tracing, Debugging, Evaluation, Monitoring, Datasets, Prompt 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
