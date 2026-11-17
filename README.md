@@ -175,16 +175,17 @@ LangChain: LangChain is an open-source framework and agent engineering platform 
 - LangGraph → Manage complex AI workflows.
 - LangSmith → Monitor, debug, and evaluate AI applications.
 ```
-## Context Rot:
-Context rot is the measurable degradation in LLM performance that occurs when input contexts grow too long.
+## Context Rot: (https://youtu.be/lDglqMhhpjM?si=PzYeL0K5H17CrRH6)
+Context rot lost in the middle Haystack test Attention Rag. Context rot is the measurable degradation in LLM performance that occurs when input contexts grow too long.
 
+### Lost in the Middle: 
+The "Lost in the Middle" phenomenon is a well-documented weakness where large language models (LLMs) pay strong attention to information placed at the beginning or end of a long input context, but significantly ignore or miss details buried in the middle
 
+#### The Needle In a Haystack Test: 
+The Needle in a Haystack (NIAH) test is an evaluation benchmark used to measure how accurately a large language model (LLM) can find and retrieve a specific piece of information hidden inside a very long block of text. 
 
-
-
-
-
-
+#### RAG = Retrieval-Augmented Generation
+RAG is a technique that allows an LLM to retrieve relevant information from external sources (documents, databases, PDFs) before generating an answer. Example: Camera related issue check in above youtube link.
 
 
 
