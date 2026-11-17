@@ -1,4 +1,6 @@
-# Claude-AI
+# Claude-AI 
+Claude Skill  (model, harness, tools, context management, and execution environment)
+
 ### PROMPTS Full Form
 
 ### P — Pick (Choose the right models and build your personal AI toolkit.)
@@ -124,4 +126,15 @@ Word2Vec is a machine learning technique that converts words into numerical vect
 ---
 # Claude Notes - Algomaster.io
 
+## Git Command
+Git Command
 
+| Operation                        | Examples                            | Typical Policy           |
+| -------------------------------- | ----------------------------------- | ------------------------ |
+| Inspect changes                  | `git status`, `git log`, `git diff` | Allow                    |
+| See what's ready to be committed | `git diff --cached`                 | Allow                    |
+| Create local commits             | `git add`, `git commit`             | Allow after review       |
+| Discard changes                  | `git reset --hard`, `git clean -fd` | Require approval         |
+| Publish changes                  | `git push`, `gh pr create`          | Require approval         |
+| Rewrite remote history           | `git push --force`                  | Block                    |
+| Merge into main                  | `gh pr merge`                       | Human approval required  |
