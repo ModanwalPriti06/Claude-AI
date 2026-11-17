@@ -1,6 +1,8 @@
 # Claude-AI 
 Claude Skill  (model, harness, tools, context management, and execution environment)
 
+## AI → Gen AI → AI Agent → Agentic AI
+
 ### PROMPTS Full Form
 
 ### P — Pick (Choose the right models and build your personal AI toolkit.)
@@ -142,7 +144,7 @@ LangChain: LangChain is an open-source framework and agent engineering platform 
 
 <img width="752" height="423" alt="Screenshot 2026-11-17 at 6 37 06 PM" src="https://github.com/user-attachments/assets/98fe092b-2ad3-4268-9e54-9702e988c3ff" />
 
-**LangGraph:** LangGraph is a framework to orchestrate multisteps, stateful workflow using LLM, with a graph based structure.
+**LangGraph:** LangGraph is a framework to orchestrate multisteps, stateful workflow using LLM, with a graph based structure. Help to cretae agentic ai.
 
 ## **LangChain vs LangGraph**
 
@@ -169,10 +171,8 @@ LangChain: LangChain is an open-source framework and agent engineering platform 
 - LangGraph → Manage complex AI workflows.
 - LangSmith → Monitor, debug, and evaluate AI applications.
 ```
-
-
-
-
+## Context Rot:
+Context rot is the measurable degradation in LLM performance that occurs when input contexts grow too long.
 
 
 
