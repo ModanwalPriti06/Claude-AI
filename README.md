@@ -197,3 +197,12 @@ Generation: LLM generates an answer based on that information.
 ![Chunking](https://img.shields.io/badge/Chunking-Text_Splitting-blue)
 ![Embedding](https://img.shields.io/badge/Embedding-Vector_Representation-purple)
 ![Vector Database](https://img.shields.io/badge/Vector_Database-Store_&_Search-green)
+
+- Chunking: Popular Libraries: LangChain, Haystack, LlamaIndex.
+- Embedding: OpenAI text-embedding 3 large, Gemini embedding
+- Vector DB: ChromaDB, Faiss, Pinecore
+
+  
+
+
+
