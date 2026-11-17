@@ -184,7 +184,7 @@ The "Lost in the Middle" phenomenon is a well-documented weakness where large la
 ### The Needle In a Haystack Test: 
 The Needle in a Haystack (NIAH) test is an evaluation benchmark used to measure how accurately a large language model (LLM) can find and retrieve a specific piece of information hidden inside a very long block of text. 
 
-### RAG = Retrieval-Augmented Generation
+## RAG = Retrieval-Augmented Generation
 RAG is a technique that allows an LLM to retrieve relevant information from external sources (documents, databases, PDFs) before generating an answer. Example: Camera related issue check in above youtube link.
 ```
 Retrieval: Finds relevant information from the PDF.
@@ -192,6 +192,8 @@ Augmentation: Adds the retrieved information to the LLM's prompt.
 Generation: LLM generates an answer based on that information.
 ```
 
+## Ingestion Pipeline and Retrieval Pipeline
 
-
-
+![Chunking](https://img.shields.io/badge/Chunking-Text_Splitting-blue)
+![Embedding](https://img.shields.io/badge/Embedding-Vector_Representation-purple)
+![Vector Database](https://img.shields.io/badge/Vector_Database-Store_&_Search-green)
