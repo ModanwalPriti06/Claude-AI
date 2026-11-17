@@ -99,7 +99,6 @@ Word2Vec is a machine learning technique that converts words into numerical vect
 
 ---
 # Week - 2 - S1
-<img width="500" height="400" alt="Screenshot 2026-10-24 at 5 06 20 PM" src="https://github.com/user-attachments/assets/00ef6d8c-943a-4901-9752-199c74d3c7d0" />
 
 ## Big Picture – Overview Table
 
