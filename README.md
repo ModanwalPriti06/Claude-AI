@@ -186,9 +186,11 @@ The Needle in a Haystack (NIAH) test is an evaluation benchmark used to measure 
 
 ### RAG = Retrieval-Augmented Generation
 RAG is a technique that allows an LLM to retrieve relevant information from external sources (documents, databases, PDFs) before generating an answer. Example: Camera related issue check in above youtube link.
-
-
-
+```
+Retrieval: Finds relevant information from the PDF.
+Augmentation: Adds the retrieved information to the LLM's prompt.
+Generation: LLM generates an answer based on that information.
+```
 
 
 
